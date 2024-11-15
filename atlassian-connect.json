@@ -4,7 +4,6 @@
     "description": "A Bitbucket app that integrates with HexmosTech for seamless repository management and monitoring.",
     "baseUrl": "https://fast-normal-penguin.ngrok-free.app",
     "authentication": {
-      "type": "jwt",
       "callbackUrl": "https://fast-normal-penguin.ngrok-free.app/callback"
     },
     "modules": {
