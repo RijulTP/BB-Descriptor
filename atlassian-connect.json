@@ -1,6 +1,7 @@
 {
-    "key": "hexmos-bitbucket-app",
-    "name": "HexmosTech Bitbucket App",
+    "key": "liveapi-bitbucket-app",
+    "name": "LiveAPI",
+    "description": "A Bitbucket app that integrates with HexmosTech for seamless repository management and monitoring.",
     "baseUrl": "https://fast-normal-penguin.ngrok-free.app",
     "authentication": {
       "type": "jwt",
