@@ -1,0 +1,17 @@
+{
+    "key": "hexmos-bitbucket-app",
+    "name": "HexmosTech Bitbucket App",
+    "baseUrl": "https://your-app-url.com",
+    "authentication": {
+      "type": "jwt"
+    },
+    "modules": {
+      "webhooks": [
+        {
+          "event": "repo:push",
+          "url": "/webhooks/repo-push"
+        }
+      ]
+    }
+  }
+  
