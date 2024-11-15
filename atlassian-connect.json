@@ -1,9 +1,10 @@
 {
     "key": "hexmos-bitbucket-app",
     "name": "HexmosTech Bitbucket App",
-    "baseUrl": "https://your-app-url.com",
+    "baseUrl": "https://fast-normal-penguin.ngrok-free.app",
     "authentication": {
-      "type": "jwt"
+      "type": "jwt",
+      "callbackUrl": "https://fast-normal-penguin.ngrok-free.app/callback"
     },
     "modules": {
       "webhooks": [
@@ -13,5 +14,4 @@
         }
       ]
     }
-  }
-  
+}
