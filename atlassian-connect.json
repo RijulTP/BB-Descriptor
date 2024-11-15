@@ -5,13 +5,5 @@
     "baseUrl": "https://fast-normal-penguin.ngrok-free.app",
     "authentication": {
       "type": "jwt"
-    },
-    "modules": {
-      "webhooks": [
-        {
-          "event": "repo:push",
-          "url": "/webhooks/repo-push"
-        }
-      ]
     }
 }
